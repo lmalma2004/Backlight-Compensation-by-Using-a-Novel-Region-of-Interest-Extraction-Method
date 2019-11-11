@@ -1,0 +1,14 @@
+<resources>
+    <string name="hello">MainActivity</string>
+    <string name="app_name">ActionBarMenu</string>
+
+    <string name="phone">Phone</string>
+    <string name="computer">Computer</string>
+    <string name="gamepad">Gamepad</string>
+
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+
+    <string name="email">EMail</string>
+
+</resources>

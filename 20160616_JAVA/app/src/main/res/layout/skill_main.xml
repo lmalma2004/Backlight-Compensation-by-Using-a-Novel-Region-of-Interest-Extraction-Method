@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sungshin.myapplication.Selectmode">
+
+
+    <LinearLayout
+        android:adjustViewBounds="true"
+        android:layout_weight="6"
+        android:id="@+id/imagepos2"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        >
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/imageView4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background = "#ff000000">
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/paint_color"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/bright2"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/bright6"
+                android:onClick="clicked"
+                android:layout_marginRight="40dp"
+                android:tag = "bright"/>
+
+            <ImageButton
+                android:id="@+id/contrast2"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/contrast6"
+                android:onClick="clicked"
+                android:layout_marginRight="40dp"
+                android:tag = "contrast"/>
+
+            <ImageButton
+                android:id="@+id/color2"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/color6"
+                android:onClick="clicked"
+                android:layout_marginRight="40dp"
+                android:tag = "color"/>
+
+            <ImageButton
+                android:id="@+id/backlight2"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/backlight6"
+                android:onClick="clicked"
+                android:tag = "backlight"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
