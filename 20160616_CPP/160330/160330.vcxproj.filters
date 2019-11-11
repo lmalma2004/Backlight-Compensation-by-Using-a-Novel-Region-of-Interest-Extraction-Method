@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\99.headers">
+      <UniqueIdentifier>{aefda80f-c9a3-4328-a2f5-0165cd384554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Photo">
+      <UniqueIdentifier>{e75a2267-6c7e-480d-913e-e36a13a2a32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.Skill">
+      <UniqueIdentifier>{56aa2024-0016-4012-941e-48cfba835a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\00.Main">
+      <UniqueIdentifier>{921d8477-e5d7-485c-b53d-6d57fd97f318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.MagneticLasso">
+      <UniqueIdentifier>{9b347404-4f50-463e-8382-bf48149acf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Backlight">
+      <UniqueIdentifier>{287ecd5d-3b61-4527-a902-f21dc8dd2882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Backlight\01.Texture">
+      <UniqueIdentifier>{1c68a881-620e-47c0-8534-5a76715842c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Backlight\02.Skin">
+      <UniqueIdentifier>{9a45e94f-8bf6-481f-86c0-4538a344328c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Backlight\03.Color">
+      <UniqueIdentifier>{92a800e1-865b-4f71-8f48-d9dfc7d0f59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Backlight\04.Binary">
+      <UniqueIdentifier>{074bd437-5763-4de9-a86f-566098efd64a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cvEx0101.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Photo.cpp">
+      <Filter>Source Files\01.Photo</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Source Files\02.Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MagneticLasso.cpp">
+      <Filter>Source Files\03.MagneticLasso</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\04.Backlight\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>Source Files\04.Backlight\02.Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\04.Backlight\03.Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary.cpp">
+      <Filter>Source Files\04.Backlight\04.Binary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Photo.h">
+      <Filter>Source Files\01.Photo</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Source Files\02.Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Source Files\99.headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source Files\00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Source Files\99.headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagneticLasso.h">
+      <Filter>Source Files\03.MagneticLasso</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>Source Files\04.Backlight\02.Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\04.Backlight\03.Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary.h">
+      <Filter>Source Files\04.Backlight\04.Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\04.Backlight\01.Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
